@@ -69,3 +69,4 @@ void swap(char *v[], int i, int j) {
 	v[i] = v[j];
 	v[j] = temp;
 }
+//from 《The C Programming Language 2rd Edition》 P93

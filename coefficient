@@ -5,6 +5,7 @@ int f(int x){
 }
 
 void coe(int* A){
+	//s1+1进制，f(1)将所有系数加起来以保证每位系数不大于s1+1，但是仅仅只能用于系数全为正的情况
 	int s1 = f(1);
 	int s2 = f(s1 + 1);
 	for(int i = 0; i <= 3; i++){
